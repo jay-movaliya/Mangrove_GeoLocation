@@ -46,7 +46,7 @@ def check(lat: float, lon: float, buffer_km: int = 0):
     Example: /check?lat=21.95&lon=88.75&buffer_km=5
     Returns: 0 or 1
     """
-    return is_in_mangrove(lat, lon, buffer_km=5)
+    return is_in_mangrove(lat, lon, buffer_km)
 
 
 if __name__ == "__main__":
